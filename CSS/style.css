@@ -1,0 +1,81 @@
+.container{
+    width: 75%;
+    margin: 0px auto;
+}
+body{
+    margin: 0;
+}
+#sfondo-intestazione{
+    background-color: rgb(96, 175, 231);
+    height: 100px;
+    background-image: url('../img/pattern.png');
+    background-size: 300px;
+    background-repeat: repeat;
+}
+figure{
+    margin: 0px;
+}
+header img {
+     height: 30px;
+     padding-top: 35px;
+}
+#titolo h1{
+    margin-bottom: 5px;
+}
+#titolo .autore{
+    font-size: 14px;
+}
+#titolo .data{
+    font-size: 12px;
+}
+#titolo .autore, #titolo .data{
+    margin: 0;
+}
+
+.testo-importante{
+    color: blue;
+}
+#foto{
+    margin-top: 20px;;
+}
+.descrizione-immagine{
+    margin: 0;
+    color: grey;
+    font-size: 10px;
+}
+#lista{
+    padding-inline-start: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+thead{
+    color: white;
+    background-color: rgb(19, 149, 242);
+}
+.evidenziatura{
+    background-color: yellow;
+}
+.riga-dispari{
+    background-color: rgb(157, 234, 212);
+}
+.riga-pari{
+    background-color: white;
+}
+h2{
+    font-size: 14px;
+    color:grey;
+}
+.foto-interessanti > img{
+    display: block;
+    margin-bottom: 10px;
+}
+.img-text span{
+  position: absolute;
+  top:10px;
+  left:10px;
+  color: white;
+}
+.img-text{
+    position: relative;
+}
